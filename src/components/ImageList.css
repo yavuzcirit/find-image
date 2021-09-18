@@ -1,0 +1,17 @@
+.image-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+	grid-gap: 0 10px;
+	grid-auto-rows: 200px;
+
+}
+
+
+.image-list img{
+	width: 250px;
+	grid-row-end:span 2 ;
+}
+
+body {
+	background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
